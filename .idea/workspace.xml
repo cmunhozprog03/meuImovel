@@ -20,12 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8ba46dfe-da9c-4d85-bcef-89476c36aabd" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_30_014347_create_table_real_state.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_30_014531_create_table_categories.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_30_014629_create_table_real_state_photos.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_30_014710_create_table_user_profile.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/database/migrations/2020_09_30_020612_create_table_real_state_categories.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/Http/Controllers/Api/RealStateController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/RealState.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -166,8 +165,17 @@
       <option name="presentableId" value="Default" />
       <updated>1601429648936</updated>
       <workItem from="1601429650167" duration="215000" />
-      <workItem from="1601429882438" duration="2041000" />
+      <workItem from="1601429882438" duration="2309000" />
+      <workItem from="1601468970654" duration="8199000" />
     </task>
+    <task id="LOCAL-00001" summary="Create tables e migrations">
+      <created>1601432189953</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601432189953</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -183,9 +191,12 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Create tables e migrations" />
+    <option name="LAST_COMMIT_MESSAGE" value="Create tables e migrations" />
   </component>
   <component name="WindowStateProjectService">
     <state x="492" y="247" key="#Composer" timestamp="1601429716763">
@@ -208,5 +219,9 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state width="1321" height="181" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1601429867231" />
+    <state x="274" y="100" key="Vcs.Push.Dialog.v2" timestamp="1601432193166">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="274" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601432193166" />
   </component>
 </project>
