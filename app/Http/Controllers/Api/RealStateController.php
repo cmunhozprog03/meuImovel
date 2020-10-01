@@ -72,7 +72,7 @@ class RealStateController extends Controller
 
             return response()->json([
 
-                'data' => 'Imóvel cadastrado com sucesso'
+                'data' => 'Imóvel alterado com sucesso'
 
             ], 200);
 
