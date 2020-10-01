@@ -27,4 +27,8 @@ Route::prefix('v1')->namespace('Api')->group(function(){
     Route::name('users.')->group(function(){
         Route::resource('users', 'UserController');
     });
+
+    Route::name('categories.')->group(function(){
+        Route::resource('categories', 'CategoryController');
+    });
 });
